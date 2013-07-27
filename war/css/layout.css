@@ -1,0 +1,205 @@
+.col1, .col2, .col3, .cols {float:left}
+.col1 {width:304px}
+.col2 {width:632px}
+.cols {width:268px}
+/* page1 */
+#page1 #logo_box{padding:48px 0 32px 0px}
+#page1 header nav {top:72px}
+#page1 .body3 {background:url(http://ugate.googlecode.com/files/bg_img3.png) center top no-repeat;position:absolute;height:415px;width:373px;top:22px;left:50%;margin-left:127px;z-index:10}
+#page1 .text1 {padding:199px 0 0 47px}
+#page1 #icons {padding:42px 0 0 353px}
+#page1 header {padding-bottom:183px}
+#page1 .marg_top {margin-top:-150px}
+/* page2 */
+/* page3 */
+/* page4 */
+/* page5 */
+#page5 .col1 .col2 {width:80px;letter-spacing:-1px}
+#page5 .col1 .col3 {width:140px}
+/* page6 */
+/* featrues */
+#featuretable td {padding-top:20px;padding-bottom:20px;border-top:1px solid #5c5d5e;}
+/* menu */
+#container {
+ width: 948px;
+ margin: 0 auto;
+}
+#blob {
+ position: absolute;
+ top: 0;
+ z-index : 1;
+ box-shadow:2px 1px 10px #1d8bce;
+ -moz-box-shadow: 2px 1px 10px #1d8bce;
+ -webkit-box-shadow: 2px 1px 10px #1d8bce;
+ border-right: 1px solid #1d8bce;
+ border-left: 1px solid #1d8bce;
+ border-radius: 7px;
+ -moz-border-radius: 7px;
+ -webkit-border-radius: 7px;
+ background: #bbbbbb;
+ background: -moz-linear-gradient(top, #bbbbbb, #ffffff);
+ background: -webkit-gradient(linear, left top, left bottom, from(#bbbbbb), to(#ffffff));
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbbbbb', endColorstr='#ffffff');
+ /*-pie-background: linear-gradient(#bbbbbb, #ffffff);*/
+ /*-pie-background: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px #0ae;
+ behavior:url(js/PIE.htc);*/
+}
+#nav {
+ position: relative;
+ /*background: #ffffff;*/
+ float: left;
+}
+#nav li {
+ margin: 0; padding: 0;
+ float: left;
+ list-style: none;
+ /*border-right: 1px solid #4a4a4a;
+ border-left: 1px solid black;*/
+}
+#nav li a {
+ color: #545454;
+ position: relative;
+ z-index: 2;
+ float: left;
+ font-size: 17px;
+ text-decoration: none;
+ padding: 5px 10px;
+}
+/* wiki */
+#wikipage {
+  background: #f8f8f8;
+  padding-bottom: 10px;
+}
+
+#wikipage #wikimaincol {
+  border: 1px solid #ccc;
+}
+
+#wikimaincol {
+  padding: 5px 25px 10px 10px;
+  background-color: #fff;
+  min-width: 64em;
+}
+
+#wikiheader {
+  padding-top: 10px;
+  margin-bottom: 12px;
+}
+
+#wikicontent h1, #wikicontent h2, #wikicontent h3, 
+#wikipreview h1, #wikipreview h2, #wikipreview h3 {
+  background: none;
+  border: 0;
+  padding-left:0;
+  max-width: 700px;
+}
+
+#wikicontent h3, #wikipreview h3 {
+  margin: 0;
+}
+
+#wikicontent ul, #wikipreview ul, 
+#wikicontent ol, #wikipreview ol {
+padding:0px;
+margin:10px;
+  padding-left: 25px;
+  max-width: 62em;
+}
+#wikicontent ul, #wikipreview ul {
+list-style-type:none;
+}
+#wikitable ol, #wikitable ol {
+list-style-type:upper-roman;
+}
+#wikicontent ol, #wikipreview ol {
+list-style-type:decimal;
+}
+#wikitable li,
+#wikicontent li,
+#wikipreview li {
+padding-left:14px;
+  margin-bottom: 0.3em;
+}
+#wikicontent ul li,
+#wikipreview ul li {
+background-image:url(http://ugate.googlecode.com/files/marker_1.gif);
+background-repeat:no-repeat;
+background-position:0px 5px; 
+}
+
+#wikicontent p,
+#wikipreview p {
+  line-height: 1.25em;
+  max-width: 64em;
+}
+
+#wikicontent hr,
+#wikipreview hr {
+  width: 100%;
+  color: #ccc;
+  background-color: #ccc;
+}
+
+#wikicontent img,
+#wikipreview img {
+  max-width: 100%;
+}
+
+#wikiauthor {
+  clear: both;
+  text-align: right;
+  font-size: x-small;
+}
+
+.wikitable {
+width: 100%;
+  border-spacing: 0;
+  border: 1px solid #ccc;
+}
+.gadget-title {
+  margin-bottom: 2px;
+}
+a.section_anchor:before { content: "\00B6" }
+a.section_anchor {  display: none; text-decoration: none; margin-left: .7em; font-weight: lighter; font-size: 85%; }
+h1:hover a.section_anchor, h2:hover a.section_anchor, h3:hover a.section_anchor,
+h4:hover a.section_anchor, h5:hover a.section_anchor, h6:hover a.section_anchor { display: inline; color: #bbb; }
+h1 a.section_anchor:hover, h2 a.section_anchor:hover, h3 a.section_anchor:hover,
+h4 a.section_anchor:hover, h5 a.section_anchor:hover, h6 a.section_anchor:hover { color: #33c; }
+
+#wikicontent code, tt, #wikicontent pre,
+#wikipreview code, tt, #wikipreview pre {
+  font-family: Monaco, 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Lucida Console', monospace;
+  font-size: 93%;
+  max-width: 66em;
+}
+
+pre.prettyprint {
+  padding: 0.5em;
+  overflow: auto;
+  font-family: Monaco, 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Lucida Console', monospace;
+  font-size: 93%;
+}
+
+#wikicontent pre.prettyprint,
+#wikipreview pre.prettyprint {
+  background-color: #eee;
+  max-width: 70em;
+}
+
+#wikicontent blockquote,
+#wikipreview blockquote {
+  max-width: 60em;
+}
+.tableborder {
+	border-width: 1px;
+	border-spacing: 1px;
+	border-color: gray;
+	border-style: solid;
+}
+.tableborder td, .tableborder th {
+	border-width: 1px;
+	border-spacing: 1px;
+	border-color: gray;
+	border-style: solid;
+	padding: 3px;
+}
